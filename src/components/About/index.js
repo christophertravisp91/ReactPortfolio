@@ -3,17 +3,11 @@ import coverImage from '../../assets/cover/cover-image.jpg';
 function About() {
   return (
     <section className="my-5">
-      <h1 id="about">Who am I?</h1>
+      <h1 id="about">About Me</h1>
       <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+        Hello prospective employers! My name is Christopher Pierce. I am a current student in the Ohio State University Coding Bootcamp. Previously I have been employed as a restaurant worker holding multiple titles, prep-cook, kitchen lead, and manager. Currently I am employed by Toshiba as a repair technician where I repair commercial electronics. I am taking this course as a way to make my way into a more challenging and fulfilling career. I believe this new skill I am developing, as well as the leadership and organizational skills I have gathered from my previous jobs will make me a well rounded candidate for any web development position. I have assembled a collection of the projects I have worked on throughout this Bootcamp process. Have a look around and I hope I will hear from you soon.
         </p>
       </div>
     </section>
