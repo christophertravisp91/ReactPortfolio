@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -26,12 +27,13 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-            <About></About>
             <Gallery currentCategory={currentCategory}></Gallery>
+            <About></About>
           </>
         ) : (
           <ContactForm></ContactForm>
         )}
+        <Footer></Footer>
       </main>
     </div>
   );
