@@ -5,11 +5,11 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #f3a847;
+  --secondary: #08c450;
   --tertiary: #b12704;
   --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
+  --dark: #050505;
+  --darker: #0a0a0a;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
