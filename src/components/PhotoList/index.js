@@ -16,13 +16,14 @@ const PhotoList = ({ category }) => {
       name: 'Crescendo',
       category: 'Projects',
       description:
-        'This was our 2nd project. It is a Music based community messaging app. Users can create topics based on any number of musical topics and interact with other users.'
+        'This is a Music based community messaging app I worked on during my Bootcamp with some collaborators. Users can create topics based on any number of musical topics and interact with other users.'
     },
     {
       name: 'Drink and Draw',
       category: 'Projects',
       description:
-        'Our 3rd project. It is a simple e-commerce site offering users options to order any number of our different packages of adult themed craft nights. It is deployed to heroku and has all elements of the MERN stack.'
+        'This is a simple e-commerce site offering users options to order any number of our different packages of adult themed craft nights. It is deployed to heroku and has all elements of the MERN stack. It was a collaboration with a few members of my Bootcamp.',
+      Link: 'https://rocky-river-99926.herokuapp.com/'  
     },
     {
       name: 'Weather Companion',
