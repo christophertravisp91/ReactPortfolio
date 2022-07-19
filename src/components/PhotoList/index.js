@@ -22,8 +22,7 @@ const PhotoList = ({ category }) => {
       name: 'Drink and Draw',
       category: 'Projects',
       description:
-        'This is a simple e-commerce site offering users options to order any number of our different packages of adult themed craft nights. It is deployed to heroku and has all elements of the MERN stack. It was a collaboration with a few members of my Bootcamp.',
-      Link: 'https://rocky-river-99926.herokuapp.com/'  
+        ' <href https://rocky-river-99926.herokuapp.com/> This is a simple e-commerce site offering users options to order any number of our different packages of adult themed craft nights. It is deployed to heroku and has all elements of the MERN stack. It was a collaboration with a few members of my Bootcamp.'
     },
     {
       name: 'Weather Companion',
